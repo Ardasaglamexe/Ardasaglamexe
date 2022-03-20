@@ -1,0 +1,161 @@
+/*Html*/
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>nowember</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+   
+ 
+   
+    <div>
+      
+      <h1 id="logo">---Nowember---</h1>
+     
+    </div>
+    <div>
+      <h2 id="baslik2">TOGG NEDIR NASIL YAPILDI?</h2>
+    </div>
+   <div id="metin">
+     <h3 id="car">Türkiye’ye ait küresel ölçekte rekabet edecek bir teknoloji markası yaratma hedefiyle 25 Haziran 2018'de yola çıktık.
+
+Dünyayı ileriye taşıyacak hareket teknolojilerimizle yeni nesil akıllı cihazlar tasarlıyoruz. Bu cihazların etrafında ise “Use Case Mobility” kavramına uygun, hayatın her alanının birbiriyle bağlantıda olduğu mobilite ekosistemi geliştiriyoruz.
+
+Böylece insan odaklı, hayatı kolaylaştıran yepyeni bir yaşam alanı tasarlayarak geleceğimizi değiştirmeyi hedefliyoruz.</h3>
+     
+   </div>
+    <div id="black">
+      <img id="resim1" src="togg.jpg" alt="togg.jpg">
+    </div>
+    <div id="metin2">
+      <h3 id="yazi1">Türkiye'nin yüzde yüz elektrikli yerli otomobili, tasarımı ve özellikleriyle büyük beğeni topladı.
+
+İlk etapta SUV ve sedan olarak, 200 ve 400 beygir gücünde üretilecek olan otomobil, diğer elektrikli araçlara göre çok daha hızlı şarj edilecek. 30 dakikanın altında bir sürede, yüzde 80 doluluğa ulaşacak. Akıllı teknolojisiyle de kullanıcıların hayatına birebir dokunacak.
+
+500 kilometre menzili olacak, 30 dakikada şarj edilebilecek, 15 yılda 5 model üretilecek.
+
+TOGG 2022 sonunda ilk seri üretim aracını banttan indirecek. 2023 yılında pazara çıkacak.</h3>
+    </div>
+    
+    <img id="nowember" src=" what.jpg" alt="Nowember.png">
+    <center>
+    
+    <button id="uyari" onclick="alert('reklamlar yok ancak yakin zamanda gelecek...');">Devam etmek için reklam izlemen gerekiyor:)</button>
+    </center>
+    <h3 id="right">--ALL RIGHT RESERVED ©--</h3>
+    <i><h3 id="sirket">--NOWEMBER LLC ® ©--</h3></i>
+    <a id="politika" href="https://sartlar.com/gizlilik-politikasi-ornegi">Gizlilik Politikamız Icin Tıklayın</a>
+   <video src="Islands - 2119.mp4" height="200" width="300"  preload="none" autoplay="autoplay"controls></video>
+   
+  </body>
+</html>
+
+/*CSS*/
+body{
+  background:black;
+}
+
+
+#resim1{
+  height: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  
+  
+}
+#logo{
+  font-size: 50px;
+  border: 2px solid orange;
+  padding:40px;
+  margin-left: 40px;
+  text-align: center;
+  color: white;
+  
+}
+#metin{
+  height: 200px;
+  background: black;
+  opacity: 1 ;
+  margin-left: 40px;
+  margin-top: 50px;
+  
+}
+#car{
+  color: white ;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 5px;
+}
+#baslik2{
+  color: white ;
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+  
+}
+#metin2{
+  height: 200px;
+  margin-left: 40px;
+  margin-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+#yazi1{
+  color: white ;
+  font-size: 40px; 
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+  
+}
+#nowember{
+  height: 200px;
+  margin-top: 500px;
+  margin-left: 270px;
+  margin-right: 100px;
+  
+  
+}
+#sirket{
+  font-size: 30px;
+  color: white;
+  top: 80px;
+  text-align: center;
+  margin-top: 50px;
+}
+#right{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  
+  
+}
+#uyari{
+  height: 50px;
+  background: red;
+  border-radius: 20px;
+  border: 2px solid dimgray;
+  color: white;
+  
+}
+#politika{
+  color: white;
+  border: 2 solid orange;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 20px;
+  background: red;
+  border-radius: 20px;
+}
+#video{
+  margin-left: 50px;
+}
